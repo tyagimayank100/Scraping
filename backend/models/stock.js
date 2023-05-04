@@ -20,7 +20,7 @@ const StockSchema = new mongoose.Schema({
         default: null
     },
     marketCap: {
-        type: Number,
+        type: String,
         default: null
     },
     volume: {

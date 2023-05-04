@@ -27,7 +27,7 @@
                   *ngFor="let field of ['previousClose', 'open', 'bid', 'ask', 'marketCap', 'volume', 'dayRange', 'peRatio', 'epsRatio']">
                   <td class="font-weight-normal align-middle">{{field | label}}</td>
                   <td class="float-end font-weight-normal">
-                    <p class="mb-1">{{data?.[field]}}</p>
+                    <p class="mb-1 fw-semibold">{{data?.[field]}}</p>
                   </td>
                   <td class="float-end me-3"><i
                       class="fas fa-{{field === 'price' ? 'sun-o' : 'cloud-sun-rain'}} fa-lg text-{{field === 'price' ? 'warning' : 'info'}}"></i>
