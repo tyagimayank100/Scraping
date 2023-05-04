@@ -8,3 +8,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 Run `cd backend` 
 Run `npm i`
 Run `node index.js`
+
+NOTE: You will require MongoDb as database here. and you have to update the index.js file as per your connection string
